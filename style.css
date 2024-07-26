@@ -1,0 +1,72 @@
+/* Header section */
+
+body {
+    background-color: antiquewhite;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui;
+}
+
+.header-title {
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 90px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.header-icon i{
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.header-margin {
+    width: 100%;
+    border: 2px solid lightcoral;
+    margin-top: -14px;
+}
+
+/* Enojoy section */
+.container {
+    display: flex;
+    margin-top: 56px;
+    margin-left: 125px;
+}
+.enjoy-title {
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.enjoy-title span {
+    color: tomato;
+}
+
+.enjoy-description {
+    width: 490px;
+    margin-top: -20px;
+}
+
+.enjoy-btn {
+    width: 118px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+.enjoy-food {
+    width: 375px;
+    margin-left: 175px;
+}
