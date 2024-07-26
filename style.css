@@ -70,3 +70,166 @@ body {
     width: 375px;
     margin-left: 175px;
 }
+/* Food section */
+
+.food-container {
+    background-color: white;
+    width: 70%;
+    padding-bottom: 44px;
+    margin-top: 80px;
+    margin-left: 210px;
+    border-radius: 10px;
+    height: 281px;
+}
+.food-content{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 115px;
+}
+.food-cart{
+    width: 245px;
+    text-align: center;
+    margin-top: 60px;
+}
+.food-img {
+    width: 50px;
+}
+.food-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: system-ui;
+    margin-top: 13px;
+    margin-bottom: -2px;
+}
+.food-description {
+    width: 246px;
+}
+.food-btn {
+    width: 118px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: tomato;
+    border-color: tomato;
+    cursor: pointer;
+}
+/* Favorite section */
+.favorite-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.favorite-food {
+    width: 450px;
+    margin-top: 90px;
+}
+
+.favorite-title {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-left: -77px;
+}
+
+.cart-food {
+    width: 50px;
+}
+
+.food-content-right {
+    margin-top: -44px;
+    margin-left: -100px;
+}
+
+.cart-img {
+    display: inline-grid;
+    gap: 28px;
+    margin-top: 69px;
+}
+.cart-title {
+    font-size: 25px;
+    font-family: system-ui;
+}
+.cart-description {
+    width: 513px;
+    margin-top: -22px;
+}
+.food-content {
+    display: flex;
+}
+/* Popular section */
+.popular-container {
+    margin-top: 100px;
+}
+
+.food-item {
+    font-size: 35px;
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 100px;
+}
+.popular-description {
+    margin-left: 588px;
+    margin-top: -17px;
+    width: 330px;
+    text-align: center;
+}
+.popular-contain {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 235px;
+    background-color: #ffa784;
+    width: 85%;
+    margin-left: 116px;
+    height: 200px;
+}
+.Popular-carts {
+    background-color: white;
+    width: 262px;
+    height: 325px;
+    border-radius: 10px;
+    margin-top: -170px;
+    text-align: center;
+}
+.popular-food {
+    width: 110px;
+    margin-top: 28px;
+}
+.popular-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: system-ui;
+    margin-top: 13px;
+    margin-bottom: -2px;
+}
+.popular-text {
+    width: 246px;
+}
+.popular-btn {
+    width: 118px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: tomato;
+    border-color: tomato;
+    cursor: pointer;
+}
+/* Customer section */
+.customer-title {
+    font-size: 28px;
+    font-family: system-ui;
+    margin-bottom: 0px;
+}
+.customer-description {
+    width: 400px;
+    text-align: justify;
+}
+.customer-sub-title {
+    font-size: 18px;
+    font-family: system-ui;
+}
+.customer-sub-title span {
+    font-size: 13px;
+    color: tomato;
+}
