@@ -1,5 +1,4 @@
 /* Header section */
-
 body {
     background-color: antiquewhite;
 }
@@ -405,6 +404,32 @@ body {
     margin-top: -4px;
     font-weight: 700;
     font-family: system-ui;
+}
+/* Shefs section */
+.shefs-contain {
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+    margin-bottom: 50px;
+}
+
+.shefs-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 110px;
+    font-family: system-ui;
+}
+.shefs-cart {
+    width: 275px;
+    text-align: center;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+}
+.shefs-img {
+    width: 212px;
+    margin-top: 2px;
 }
 
 /* Footer section */
