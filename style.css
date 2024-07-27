@@ -96,11 +96,11 @@ body {
 .food-cart{
     width: 245px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .food-cart:hover {
     border: 2px solid rgb(9, 9, 48);
-    height: 240px;
+    height: 230px;
     border-radius: 8px;
 }
 .food-img {
@@ -165,7 +165,7 @@ body {
 
 .cart-food {
     width: 50px;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .food-content-right {
@@ -175,8 +175,8 @@ body {
 
 .cart-img {
     display: inline-grid;
-    gap: 0px;
-    margin-top: 78px;
+    gap: 10px;
+    margin-top: 174px;
     margin-right: 115px;
 }
 .cart-title {
@@ -351,6 +351,7 @@ body {
     border: none;
     background-color: tomato;
     color: white;
+    cursor: pointer;
 } 
 .customer-buttom-left {
     margin-top: 40px;
@@ -360,9 +361,56 @@ body {
     width: 100%;
     border: 1px solid lightcoral;
 }
+/* Menu section */
+.menu-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+}
+.menu-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 110px;
+    margin-right: 220px;
+    font-family: system-ui;
+}
+.menu-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-right: 145px;
+}
+.menu-cart {
+    width: 275px;
+    text-align: center;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+}
+.menu-food {
+    width: 212px;
+    margin-top: 2px;
+}
+.menu-sub-title {
+    font-size: 20px;
+    margin-top: 2px;
+    font-family: system-ui;
+}
+.menu-description {
+    margin-top: -18px;
+}
+.menu-dolar {
+    font-size: 20px;
+    margin-top: -4px;
+    font-weight: 700;
+    font-family: system-ui;
+}
+
 /* Footer section */
 .footer-contain {
     display: flex;
+    height: 320px;
     justify-content: space-around;
     background-color: #ffa78482;
     gap: 200px;
