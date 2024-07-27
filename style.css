@@ -2,36 +2,30 @@
 body {
     background-color: antiquewhite;
 }
-
 .header {
     display: flex;
     justify-content: space-around;
     font-family: system-ui;
 }
-
 .header-title {
     font-size: 22px;
     margin-top: 13px;
 }
-
 .navigation ul li{
     list-style: none;
     display: inline-block;
     padding-right: 90px;
 }
-
 .navigation ul li a {
     text-decoration: none;
     color: black;
     font-weight: 700;
 }
-
 .header-icon i{
     margin-top: 18px;
     margin-right: 15px;
     cursor: pointer;
 }
-
 .header-margin {
     width: 100%;
     border: 2px solid lightcoral;
@@ -48,16 +42,13 @@ body {
     font-size: 45px;
     font-family: sans-serif;
 }
-
 .enjoy-title span {
     color: tomato;
 }
-
 .enjoy-description {
     width: 490px;
     margin-top: -20px;
 }
-
 .enjoy-btn {
     width: 118px;
     padding: 10px;
@@ -75,8 +66,8 @@ body {
     width: 375px;
     margin-left: 175px;
 }
-/* Food section */
 
+/* Food section */
 .food-container {
     background-color: white;
     width: 70%;
@@ -116,7 +107,6 @@ body {
     width: 246px;
     color: #444343;
 }
-
 .food-btn1 {
     width: 118px;
     padding: 10px;
@@ -140,7 +130,6 @@ body {
     color: white;
     border: none
 }
-
 /* Favorite section */
 .favorite-container {
     display: flex;
@@ -154,28 +143,24 @@ body {
     width: 450px;
     margin-top: 90px;
 }
-
 .favorite-title {
     font-size: 35px;
     font-family: sans-serif;
     margin-left: -77px;
     margin-top: 115px;
 }
-
 .cart-food {
     width: 50px;
     margin-top: 10px;
 }
-
 .food-content-right {
     margin-top: -44px;
     margin-left: -100px;
 }
-
 .cart-img {
     display: inline-grid;
-    gap: 10px;
-    margin-top: 174px;
+    gap: 5px;
+    margin-top: 150px;
     margin-right: 115px;
 }
 .cart-title {
@@ -192,7 +177,6 @@ body {
 .popular-container {
     margin-top: 100px;
 }
-
 .food-item {
     font-size: 35px;
     font-family: system-ui;
@@ -216,7 +200,7 @@ body {
     margin-left: 116px;
     height: 200px;
 }
-.Popular-carts {
+.popular-carts {
     background-color: white;
     width: 262px;
     height: 325px;
@@ -228,7 +212,7 @@ body {
     width: 110px;
     margin-top: 28px;
 }
-.Popular-carts:hover {
+.popular-carts:hover {
     border: 2px solid rgb(9, 9, 48);
 }
 .popular-title {
@@ -260,12 +244,12 @@ body {
     border: none;
     cursor: pointer;
 }
-
 .popular-btn:hover {
     background-color: rgb(9, 9, 48);
     color: white;
     border: none;
 }
+
 /* Customer section */
 .customer-content {
     display: flex;
@@ -293,7 +277,6 @@ body {
     font-size: 13px;
     color: tomato;
 }
-
 .award-left {
     display: inline-flex;
     margin-top: 10px;
@@ -387,6 +370,9 @@ body {
     padding-bottom: 2px;
     border-radius: 15px;
 }
+.menu-cart:hover {
+    border: 2px solid rgb(9, 9, 48);
+}
 .menu-food {
     width: 212px;
     margin-top: 2px;
@@ -405,6 +391,7 @@ body {
     font-weight: 700;
     font-family: system-ui;
 }
+
 /* Shefs section */
 .shefs-contain {
     display: flex;
@@ -412,11 +399,11 @@ body {
     gap: 61px;
     margin-bottom: 50px;
 }
-
 .shefs-title {
     text-align: center;
     font-size: 40px;
     margin-top: 110px;
+    margin-bottom: 60px;
     font-family: system-ui;
 }
 .shefs-cart {
@@ -427,9 +414,28 @@ body {
     padding-bottom: 2px;
     border-radius: 15px;
 }
+.shefs-cart:hover {
+    border: 2px solid rgb(9, 9, 48);
+}
 .shefs-img {
     width: 212px;
     margin-top: 2px;
+}
+.shefs-sub-title {
+    font-size: 20px;
+    margin-top: 2px;
+    margin-top: 15px;
+    margin-bottom: -8px;
+    font-family: system-ui;
+}
+.shefs-sub-title1 {
+    margin-top: 27px;
+    margin-bottom: -8px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+.shefs-description {
+    color: #444343;
 }
 
 /* Footer section */
