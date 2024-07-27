@@ -29,7 +29,8 @@ body {
 
 .header-icon i{
     margin-top: 18px;
-    margin-right: 10px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 
 .header-margin {
@@ -39,10 +40,10 @@ body {
 }
 
 /* Enojoy section */
-.container {
+.enjoy-container {
     display: flex;
-    margin-top: 56px;
-    margin-left: 125px;
+    margin-top: 90px;
+    margin-left: 165px;
 }
 .enjoy-title {
     font-size: 45px;
@@ -65,6 +66,11 @@ body {
     background-color: tomato;
     color: white;
     border: none;
+    cursor: pointer;
+}
+.enjoy-btn:hover {
+    background-color: rgb(9, 9, 48);
+    color: white;
 }
 .enjoy-food {
     width: 375px;
@@ -92,6 +98,11 @@ body {
     text-align: center;
     margin-top: 60px;
 }
+.food-cart:hover {
+    border: 2px solid rgb(9, 9, 48);
+    height: 240px;
+    border-radius: 8px;
+}
 .food-img {
     width: 50px;
 }
@@ -104,6 +115,17 @@ body {
 }
 .food-description {
     width: 246px;
+    color: #444343;
+}
+
+.food-btn1 {
+    width: 118px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(9, 9, 48);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 .food-btn {
     width: 118px;
@@ -114,13 +136,21 @@ body {
     border-color: tomato;
     cursor: pointer;
 }
+.food-btn:hover {
+    background-color: rgb(9, 9, 48);
+    color: white;
+    border: none
+}
+
 /* Favorite section */
 .favorite-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
 }
-
+.favorite-content {
+    display: flex;
+}
 .favorite-food {
     width: 450px;
     margin-top: 90px;
@@ -130,10 +160,12 @@ body {
     font-size: 35px;
     font-family: sans-serif;
     margin-left: -77px;
+    margin-top: 115px;
 }
 
 .cart-food {
     width: 50px;
+    margin-top: 70px;
 }
 
 .food-content-right {
@@ -143,8 +175,9 @@ body {
 
 .cart-img {
     display: inline-grid;
-    gap: 28px;
-    margin-top: 69px;
+    gap: 0px;
+    margin-top: 78px;
+    margin-right: 115px;
 }
 .cart-title {
     font-size: 25px;
@@ -152,11 +185,10 @@ body {
 }
 .cart-description {
     width: 513px;
+    color: #444343;
     margin-top: -22px;
 }
-.food-content {
-    display: flex;
-}
+
 /* Popular section */
 .popular-container {
     margin-top: 100px;
@@ -166,13 +198,14 @@ body {
     font-size: 35px;
     font-family: system-ui;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 120px;
 }
-.popular-description {
+.popular-description-top {
     margin-left: 588px;
     margin-top: -17px;
     width: 330px;
     text-align: center;
+    color: #444343;
 }
 .popular-contain {
     display: flex;
@@ -189,12 +222,15 @@ body {
     width: 262px;
     height: 325px;
     border-radius: 10px;
-    margin-top: -170px;
+    margin-top: -160px;
     text-align: center;
 }
 .popular-food {
     width: 110px;
     margin-top: 28px;
+}
+.Popular-carts:hover {
+    border: 2px solid rgb(9, 9, 48);
 }
 .popular-title {
     font-size: 18px;
@@ -203,8 +239,9 @@ body {
     margin-top: 13px;
     margin-bottom: -2px;
 }
-.popular-text {
+.popular-description {
     width: 246px;
+    color: #444343;
 }
 .popular-btn {
     width: 118px;
@@ -215,7 +252,30 @@ body {
     border-color: tomato;
     cursor: pointer;
 }
+.popular-btn1 {
+    width: 118px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(9, 9, 48);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popular-btn:hover {
+    background-color: rgb(9, 9, 48);
+    color: white;
+    border: none;
+}
 /* Customer section */
+.customer-content {
+    display: flex;
+    margin-top: 100px;
+}
+.customer-item-left {
+    margin-left: 112px;
+    margin-top: 60px;
+}
 .customer-title {
     font-size: 28px;
     font-family: system-ui;
@@ -224,6 +284,7 @@ body {
 .customer-description {
     width: 400px;
     text-align: justify;
+    color: #444343;
 }
 .customer-sub-title {
     font-size: 18px;
@@ -232,4 +293,87 @@ body {
 .customer-sub-title span {
     font-size: 13px;
     color: tomato;
+}
+
+.award-left {
+    display: inline-flex;
+    margin-top: 10px;
+}
+.award-content {
+    background-color: #ffa784;
+    width: 765px;
+    padding: 10px;
+    margin-left: 110px;
+    border-top-right-radius: 100px;
+}
+.award {
+    width: 270px;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+.award-number {
+    font-size: 40px;
+    color: rgb(247, 62, 29);
+    font-weight: 700;
+}
+.award-number i {
+    color: black;
+}
+.customer-shefs {
+    width: 375px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.customer-buttom{
+    display: flex;
+    justify-content: space-around;
+}
+.customer-newsletter {
+    font-size: 25px;
+    font-family: system-ui;
+    margin-left: -101px;
+}
+.customer-newsletter span {
+    color: tomato;
+}
+.customer-email {
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffa784;
+    width: 220px;
+    margin-left: 90px;
+}
+.customer-subscribe {
+    width: 100px;
+    padding: 9px;
+    border-radius: 6px;
+    border: none;
+    background-color: tomato;
+    color: white;
+} 
+.customer-buttom-left {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.customer-margin {
+    width: 100%;
+    border: 1px solid lightcoral;
+}
+/* Footer section */
+.footer-contain {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffa78482;
+    gap: 200px;
+}
+.footer-right{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-left {
+    width: 190px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
